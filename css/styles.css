@@ -394,7 +394,7 @@ img {
 
 .form-checkbox-concent:checked + .form-check::before {
   background-color: var(--accent-color);
-  background-image: url('../images/icon-check.svg');
+  background-image: url('/images/icon-check.svg');
   background-position: center;
   border-color: var(--accent-color);
 }
