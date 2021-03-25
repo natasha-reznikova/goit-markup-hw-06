@@ -332,6 +332,7 @@ img {
   justify-content: start;
   left: 12px;
   top: 15px;
+
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -393,7 +394,7 @@ img {
 
 .form-checkbox-concent:checked + .form-check::before {
   background-color: var(--accent-color);
-  background-image: url('/images/icon-check.svg');
+  background-image: url('../images/icon-check.svg');
   background-position: center;
   border-color: var(--accent-color);
 }
